@@ -18,8 +18,5 @@ function App() {
           <button onClick={() => setFormularioVisivel(!formularioVisivel)} type='button'>toggle form</button> */}
         </>
       )}
-    </>
-  )
-}
 
 export default App
