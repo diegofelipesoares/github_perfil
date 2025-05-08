@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
-import styles from './ReposList.module.css';
+import styles from "./ReposList.module.css";
 
 const ReposList = ({nomeUsuario}) => {
-    const [repos, setRepos] = useState([]);
-    const [estaCarregando, setEstaCarregando] = useState(true);
+    const [repos, setRepos] = useState([]); //lista de repositórios
+    const [estaCarregando, setEstaCarregando] = useState(true); //estado para frase está carregando
     // useEffect é usado para executar efeitos colaterais, como chamadas de API,
     // quando o componente é montado. O array vazio [] indica que o efeito será executado
     // apenas uma vez, quando o componente for carregado pela primeira vez.
@@ -18,8 +18,9 @@ const ReposList = ({nomeUsuario}) => {
         // O resultado em JSON é recebido como 'resJson'.
         .then(resJson => {
             // Colocando conteúdo no useState, no repos
+            // Adicionando tempo de espera de 3 segundos para atrasos na requisição
             setTimeout(( ) => {
-                setEstaCarregando(false);
+                setEstaCarregando(false); //para frase "esta carregando..."
                 setRepos(resJson);
             },3000)
         })
