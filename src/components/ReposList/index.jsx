@@ -12,7 +12,7 @@ const ReposList = ({nomeUsuario}) => {
         //Quando entrar no useEffect, volta carregando para true
         setEstaCarregando(true);
         // Faz uma requisição à API do GitHub para buscar os repositórios
-        fetch(`https://api.github.com/users/${nomeUsuario}/repos`)
+        fetch(`https://api.github.com/users/diegofelipesoares/repos`)
         // O retorno da requisição (uma "Promise") é transformado em JSON.
         .then(res => res.json())
         // O resultado em JSON é recebido como 'resJson'.
@@ -26,6 +26,7 @@ const ReposList = ({nomeUsuario}) => {
     }, [nomeUsuario]);
 
     return(
+        
         <div className="container">
 
             {estaCarregando ? (

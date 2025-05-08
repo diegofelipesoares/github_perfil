@@ -13,10 +13,6 @@ const Formulario = () => {
         }
     },[]);
 
-    // useEffect(() => {
-    //     console.log("Matéria mudou");
-    // },[materiaA, materiaB, materiaC]);
-
     const alteraNome = (evento) => {
         //setNome(evento.target.value)
         setNome(estadoAnterior =>{
