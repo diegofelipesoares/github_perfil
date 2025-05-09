@@ -65,6 +65,7 @@ github_perfil/
 ├── public/               # Arquivos estáticos
 ├── index.html            # HTML base
 └── vite.config.js        # Configuração do Vite
+```
 
 ## 📸 Demonstração do projeto
 https://github-perfil-murex.vercel.app/
