@@ -7,7 +7,7 @@ function App() {
 
   return(
           <>
-          <Perfil />
+          <Perfil nomeUsuario="diegofelipesoares"/>
           <ReposList />
           
         </>

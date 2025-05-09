@@ -1,4 +1,4 @@
-import styles from "./ReposList.module.css";
+import styles from './ReposList.module.css';
 import { useEffect, useState } from "react";
 
 const ReposList = ({nomeUsuario}) => {
