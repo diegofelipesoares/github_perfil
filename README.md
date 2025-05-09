@@ -1,4 +1,4 @@
-# GitHub Perfil Viewer
+ GitHub Perfil Viewer
 
 Projeto em React + Vite para exibir informações públicas de perfis do GitHub.
 
@@ -19,7 +19,7 @@ Esta aplicação permite buscar usuários do GitHub e visualizar seus repositór
 
 ## 🛠️ Tecnologias Utilizadas
 
-<div style="display: flex; gap: 10px; align-items: center;">
+<div align="left">
 
 <a href="https://reactjs.org/" target="_blank">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" />
@@ -27,10 +27,6 @@ Esta aplicação permite buscar usuários do GitHub e visualizar seus repositór
 
 <a href="https://vitejs.dev/" target="_blank">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" alt="Vite" width="40" />
-</a>
-
-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Visual_Studio_Icon_2019.svg/1024px-Visual_Studio_Icon_2019.svg.png" alt="Fetch API" width="40" />
 </a>
 
 <a href="https://github.com/css-modules/css-modules" target="_blank">
@@ -42,18 +38,19 @@ Esta aplicação permite buscar usuários do GitHub e visualizar seus repositór
 - **React** – Biblioteca para construção de interfaces.
 - **Vite** – Ferramenta de bundling rápida para projetos modernos.
 - **CSS Modules** – Estilização com escopo local.
-- **Fetch API** – Consumo de dados da API pública do GitHub.
+- **Fetch API** – Utilizada para consumir a API pública do GitHub.
 
 ## 📦 Instalação
 
-Clone o repositório:
-
+```bash
+# Clone o repositório
 git clone https://github.com/diegofelipesoares/github_perfil.git
 cd github_perfil
 
-Instale as dependências:
-
+# Instale as dependências
 npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
 
 ## 📁 Estrutura de Pastas
