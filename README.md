@@ -1,4 +1,4 @@
- GitHub Perfil Viewer
+# GitHub Perfil Viewer
 
 Projeto em React + Vite para exibir informações públicas de perfis do GitHub.
 
